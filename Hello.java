@@ -8,7 +8,7 @@ public class Hello {
         int age = scan.nextInt();
         // i am naming the int. age thus when i have to call upon it I can just add age.
         System.out.println("I see that you are still quite young at only "+age+".");
-        System.out.println("Where do you live?");
+        System.out.println("Where do you live?");//This is the added comment
         String home =scan.next();
         System.out.println("Wow! I've always wanted to go to "+home+". Thanks for chatting with me. Bye! ");
     }
